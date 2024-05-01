@@ -68,3 +68,22 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+## Notes:-
+
+
+# Layout:-
+1. HEAD COMPONENT
+2. BODY COMPONENT 
+    HAMBURGER MENU
+    FILTER BUTTONS
+    VIDEO COMPONENT/ WATCH COMPONENT
+
+
+# Teckstack
+1. React
+2. Tailwind
+3. redux toolkit , react redux
+4. react-router-dom
