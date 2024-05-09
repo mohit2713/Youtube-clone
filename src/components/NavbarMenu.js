@@ -7,9 +7,9 @@ const NavbarMenu = () => {
 
   if (!isMenuOpen) return null;
   return (
-    <div className=" w-[200px] p-4 m-2 shadow-lg ">
+    <div className="col-span-8 w-[200px] px-4 mx-2 shadow-lg">
       <div>
-        <ul className="font-medium ">
+        <ul className="font-medium mt-4 ">
           <Link to="/">
             <li>Home</li>
           </Link>

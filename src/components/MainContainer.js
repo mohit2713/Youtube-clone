@@ -4,7 +4,7 @@ import FilterButtonsList from "./FilterButtonsList";
 
 const MainContainer = () => {
   return (
-    <div className="">
+    <div className=" col-span-3">
       <FilterButtonsList />
       <VideoContainer />
     </div>

@@ -12,7 +12,7 @@ const WatchPage = () => {
     dispatch(closeMenu());
   }, []);
   return (
-    <div className="p-5 ">
+    <div className="p-5  col-span-3">
       <iframe
         width="1200"
         height="600"
@@ -20,8 +20,8 @@ const WatchPage = () => {
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowFullscreen
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
       ></iframe>
     </div>
   );

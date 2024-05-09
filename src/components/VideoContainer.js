@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { YOUTUBE_VIDEOS_API } from "../utils/constants";
-import VideoCards from "./VideoCards";
 import VideoList from "./VideoList";
 import ShimmerUI from "../utils/ShimmerUI";
 
@@ -15,13 +14,14 @@ const VideoContainer = () => {
   const getVideos = async () => {
     const data = await fetch(YOUTUBE_VIDEOS_API);
     const json = await data.json();
-    console.log(json.items);
+    // console.log(json.items);
     setVideos(json.items);
     setCheck(true);
   };
-  if (check == false) return <ShimmerUI />;
+  if (check === false) return <ShimmerUI />;
   return (
-    <div>
+    <div className="">
+      {/* <h1> Limit Execed</h1> */}
       <VideoList data={videos} />
     </div>
   );

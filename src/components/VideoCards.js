@@ -6,7 +6,11 @@ const VideoCards = ({ info }) => {
   const { channelTitle, title, thumbnails } = snippet;
   return (
     <div className="p-2 m-2 w-72 cursor-pointer shadow-lg ">
-      <img className=" rounded-md" src={thumbnails.medium.url} />
+      <img
+        className=" rounded-md"
+        alt="thumbnailLogo"
+        src={thumbnails.medium.url}
+      />
       <ul>
         <li className="font-medium   ">{title}</li>
         <li className="text-sm text-gray-600 ">{channelTitle}</li>
