@@ -6,6 +6,8 @@ import MainContainer from "./components/MainContainer";
 import WatchPage from "./components/WatchPage";
 import SearchResultsContainer from "./components/SearchResultsContainer";
 import MainBody from "./components/MainBody";
+import Demo1 from "./Demo1";
+import Demo2 from "./Demo2";
 
 const appRouter = createBrowserRouter([
   {
@@ -25,6 +27,15 @@ const appRouter = createBrowserRouter([
         element: <SearchResultsContainer />,
       },
     ],
+  },
+  {
+    path: "demo",
+    element: (
+      <>
+        <Demo1 />
+        <Demo2 />
+      </>
+    ),
   },
 ]);
 

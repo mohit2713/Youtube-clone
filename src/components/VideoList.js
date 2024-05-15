@@ -6,8 +6,8 @@ const VideoList = ({ data }) => {
   // console.log(data[0]);
   return (
     <div className="flex flex-wrap justify-around">
-      {data.map((data) => (
-        <Link key={data.id} to={"/watch?v=" + data.id}>
+      {data.map((data, i) => (
+        <Link key={i} to={"/watch?v=" + data.id}>
           <VideoCards info={data} />
         </Link>
       ))}
