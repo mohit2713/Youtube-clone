@@ -1,6 +1,6 @@
 # link:- https://666858b723191d0412c8b699--admirable-gumdrop-c8ea72.netlify.app/#
 
-# Description: \textbf{YouTube Web App} is a feature-rich, dynamic application built with \textbf{React and Redux}, leveraging the power of\textbf{ YouTube APIs}. Providing a seamless user experience for browsing, searching, and watching YouTube videos. With a responsive design and intuitive interface, the app enables users to easily explore \textbf{trending videos}, manage their \\ \textbf{live chat , Performant Search Bar and nested comments}. Enhanced with Redux for efficient state management, it ensures fast, reliable performance and a smooth, engaging user experience..#
+# Description: YouTube Web App is a feature-rich, dynamic application built with React and Redux, leveraging the power of YouTube APIs. Providing a seamless user experience for browsing, searching, and watching YouTube videos. With a responsive design and intuitive interface, the app enables users to easily explore trending videos, manage their live chat , Performant Search Bar and nested comments. Enhanced with Redux for efficient state management, it ensures fast, reliable performance and a smooth, engaging user experience..#
 
 
 
