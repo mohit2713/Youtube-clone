@@ -73,7 +73,7 @@ const Header = () => {
   };
 
   return (
-    <div className="grid grid-flow-col sticky top-0 bg-white tran p-3 mx-2 shadow-lg ">
+    <div className="sm:flex flex-initial lg:grid w-full grid-flow-col sticky top-0 bg-white tran p-3 mx-2 shadow-lg ">
       <div className="flex col-span-1">
         <img
           onClick={() => toggleMenuHandler()}
@@ -92,7 +92,7 @@ const Header = () => {
       <div className="flex-col col-span-10 mt-2 ">
         <div className="flex">
           <input
-            className="border relative border-gray-400 w-1/2 h-12 rounded-l-full p-4"
+            className="border relative border-gray-400 h-12 rounded-l-full p-4 sm:w-2/12 lg:w-6/12"
             placeholder="Search"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
@@ -114,7 +114,7 @@ const Header = () => {
           </Link>
         </div>
         {showsuggestion && (
-          <div className="absolute shadow-lg bg-white w-[41rem] rounded-md border border-gray-100">
+          <div className=" w-9/12 lg:w-[41rem] absolute shadow-lg bg-white  rounded-md border border-gray-100">
             {suggestion.map((item, index) => (
               <ul key={index}>
                 <Link to="/search">
@@ -130,14 +130,14 @@ const Header = () => {
           </div>
         )}
       </div>
-      <div className="flex col-span-1">
+      <div className="sm:h-0 lg: h-0 flex col-span-1">
         <img
-          className="h-12 mt-2 "
+          className="lg:h-12 mt-2 "
           alt="profilelogo"
           src="https://cdn.vectorstock.com/i/500p/53/42/user-member-avatar-face-profile-icon-vector-22965342.jpg"
         />
         <img
-          className="h-12 mt-2"
+          className="lg:h-12 mt-2"
           alt="profilelogo"
           src="https://static.vecteezy.com/system/resources/thumbnails/001/505/138/small/notification-bell-icon-free-vector.jpg"
         />

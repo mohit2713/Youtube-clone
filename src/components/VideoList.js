@@ -8,7 +8,9 @@ const VideoList = ({ data }) => {
     <div className="flex flex-wrap justify-around">
       {data.map((data, i) => (
         <Link key={i} to={"/watch?v=" + data.id}>
-          <VideoCards info={data} />
+          <div>
+            <VideoCards info={data} />
+          </div>
         </Link>
       ))}
     </div>

@@ -19,7 +19,7 @@ const list = [
 ];
 const FilterButtonsList = () => {
   return (
-    <div className="flex px-4 mt-2">
+    <div className="sm: w-full flex flex-wrap lg:flex px-4 mt-2">
       {list.map((items, index) => (
         <Buttons key={index} data={items} />
       ))}

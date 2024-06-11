@@ -43,7 +43,7 @@ const WatchPage = () => {
   return (
     <div className="flex flex-col p-5">
       <div className="flex">
-        <div>
+        <div className="">
           <iframe
             width="1200"
             height="600"
